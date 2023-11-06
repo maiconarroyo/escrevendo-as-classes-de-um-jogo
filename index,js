@@ -1,0 +1,47 @@
+class espadachin {
+    constructor(nome,idade,arma, ataque) {
+        this.nome="Kenshin Himura"
+        this.idade = "25"
+        this.arma = "Katana de aço"
+        this.ataque = "Golpe Fuminante"
+    }
+    escrever() {
+        console.log(`Espadachin Atacou usando ${this.arma} com ataque ${this.ataque}`)
+    }
+}
+class arqueiro {
+    constructor(nome,idade,arma, ataque) {
+        this.nome="Tauriel"
+        this.idade="32"
+        this.arma = "Arco Elfico"
+        this.ataque = "Rajada Dupla"
+    }
+    escrever() {
+        console.log(`Arqueiro atacou com ${this.arma} usou ataque ${this.ataque}`)
+    }
+}
+class Mago {
+    constructor(nome,idade,arma, ataque) {
+        this.nome="Gandalf"
+        this.idade="323"
+        this.arma = "Cajado de Mógno"
+        this.ataque = "Bola de Fogo"
+    }
+    escrever() {
+        console.log(`Mago atacou com ${this.arma} usou magia ${this.ataque}`)
+    }
+}
+class Guerreiro{
+    constructor(nome,idade,arma,ataque){
+        this.nome="Konan"
+        this.idade="30"
+        this.arma= "Machado Rústico"
+        this.ataque="Fúria do Machado"
+    }
+    escrever(){
+        console.log(`Guerreiro Atacou com ${this.arma} usou ataque ${this.ataque}`)
+    }
+}
+
+let classe = new Guerreiro()
+classe.escrever()
